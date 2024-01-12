@@ -15,7 +15,5 @@ public class ejercicioCompartido {
 		
     }public static double calcularArea(int base, int altura) {
 	return base * altura / 2;
-	
-	
-
+    }
 }
