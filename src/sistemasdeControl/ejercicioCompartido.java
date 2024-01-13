@@ -23,6 +23,11 @@ public class ejercicioCompartido {
 	double perimetro=2*(3.14*radio);
 	return perimetro;
 	
-	//metodo para calcular el área de un cilindro
+	
+}//metodo para calcular el área de un cilindro
+public static double areaCilindro(int radio) {
+	double area = 1;
+	return area;
+	
 }
 }
