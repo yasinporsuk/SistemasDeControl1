@@ -32,4 +32,8 @@ public static double areaCilindro(int radio) {
 public static double areaRectangulo(int lado1rec,int lado2rec) {
 	return ((lado1rec*2) + (lado2rec*2));
 }
+public static double volumenCubo(int ladocubo) {
+	double volumen=ladocubo*ladocubo*ladocubo;
+	return volumen;
+}
 }
