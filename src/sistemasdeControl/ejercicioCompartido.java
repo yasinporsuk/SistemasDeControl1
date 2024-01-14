@@ -19,15 +19,17 @@ public class ejercicioCompartido {
     public static double calaACirc(int radio) {
 	double area = 3.14*(radio^2);
 	return area;
-}public static double perimetroACirc(int radio) {
+}
+    public static double perimetroACirc(int radio) {
 	double perimetro=2*(3.14*radio);
-	return perimetro;
-	
-	
-}//metodo para calcular el área de un cilindro
+	return perimetro;	
+}
+//metodo para calcular el área de un cilindro
 public static double areaCilindro(int radio) {
 	double area = 1;
 	return area;
-	
+}
+public static double areaRectangulo(int lado1rec,int lado2rec) {
+	return ((lado1rec*2) + (lado2rec*2));
 }
 }
