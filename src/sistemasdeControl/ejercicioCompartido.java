@@ -22,12 +22,16 @@ public class ejercicioCompartido {
 }public static double perimetroACirc(int radio) {
 	double perimetro=2*(3.14*radio);
 	return perimetro;
-	
-	
 }//metodo para calcular el área de un cilindro
 public static double areaCilindro(int radio) {
 	double area = 1;
 	return area;
-	
+}public static double areaRectangulo(int lado1rec,int lado2rec) {
+	return ((lado1rec*2) + (lado2rec*2));
 }
+//Metodo para calcular el cubo
+//área de un cubo
+		//System.out.println("Introduce el lado de un cubo: ");
+		//int ladoCubo = entrada.nextInt();
+		//System.out.println("El área de un cubo es: " + areaCubo(ladoCubo));
 }
